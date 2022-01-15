@@ -1,5 +1,5 @@
 {% load static %}
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -16,12 +16,12 @@
 <body>
     <aside>
         <img src="{% static 'main/img/im22.jpg' %}" alt="Log">
-        <span class="logo">Log</span>
+        <span class="logo">Reid</span>
         <h3>Навигация</h3>
         <ul>
-            <a href=""><li><i class="fa-solid fa-face-grin-squint-tears">Главная</i></li></a>
-            <a href=""><li><i class="fa-solid fa-face-grin-tongue">Про нас</i></li></a>
-            <a href=""><li><i class="fa-solid fa-handshake-angle">Контакты</i></li></a>
+            <a href="{% url 'home' %}"><li>Главная</li></a>
+            <a href="{% url 'about' %}"><li>Про нас</li></a>
+            <a href=""><li>Контакты</li></a>
         </ul>
     </aside>
     <main>
