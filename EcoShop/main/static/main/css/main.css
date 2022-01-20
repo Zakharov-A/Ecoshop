@@ -59,8 +59,13 @@ main .features p {max-width: 400px; margin: 20px auto}
 .alert-warning {
     float: left;
     clear: both;
-    width: 400px;
-    margin: 20px 34%;
+    width: 700px;
+    margin: 20px 24%;
     text-align: left;
 }
 
+form {
+    margin-left: 32%;
+    width: 400px;
+    margin-top: 50px;
+}
